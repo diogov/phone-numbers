@@ -12,7 +12,7 @@
 ### GET /phone/number  
 **List all phone numbers**
 
-**Resourse url**  
+**Resource url**  
 http://localhost:4567/phone/number
 
 
@@ -53,7 +53,7 @@ GET http://localhost:4567/phone/number
 ### GET /phone/number/{customerId}
 **List phone numbers from customer**
 
-**Resourse url**  
+**Resource url**  
 http://localhost:4567/phone/number/{customerId}
 
 **Parameters**  
@@ -86,7 +86,7 @@ GET http://localhost:4567/phone/number/1
 ### PUT /phone/number/activate
 **Activate phone number**
 
-**Resourse url**  
+**Resource url**  
 http://localhost:4567/phone/number/activate
 
 **Example Request**  
