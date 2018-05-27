@@ -1,5 +1,14 @@
 # Phone-numbers API
 
+## Set up project
+
+* Download maven 3: http://apache.mirrors.nublue.co.uk/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.zip 
+* extract and set bin folder on environment variable "path"
+* execute: mvn clean compile assembly:single
+* execute: java -jar target/phone-numbers-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+## Documentation
+
 ### GET /phone/number  
 **List all phone numbers**
 
